@@ -17,7 +17,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: "Customers", href: "/dashboard/customers", icon: UserGroupIcon },
-]; // ...
+];
 
 export default function NavLinks() {
   const pathname = usePathname();
